@@ -1,0 +1,51 @@
+<div>
+    <h2>Events</h2>
+  
+    <button (click)="toggleForm()">
+      {{ isFormVisible ? 'Cancel' : 'Add an Event' }}
+    </button>
+  
+    <div *ngIf="isFormVisible">
+      <h3>Add a New Event</h3>
+      <form (ngSubmit)="addEvent()">
+        <label>Match ID:</label>
+        <input type="text" [(ngModel)]="newEvent.matchID" name="matchID" required />
+  
+        <label>Event Type:</label>
+        <input type="text" [(ngModel)]="newEvent.eventType" name="eventType" required />
+  
+        <label>Description:</label>
+        <input type="text" [(ngModel)]="newEvent.description" name="description" required />
+  
+        <button type="submit">Add Event</button>
+      </form>
+    </div>
+  
+    <h3>All Events</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Event ID</th>
+          <th>Match ID</th>
+          <th>Event Type</th>
+          <th>Description</th>
+          <th>Timestamp</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of events">
+          <td>{{ event.eventID }}</td>
+          <td>{{ event.matchID }}</td>
+          <td>{{ event.eventType }}</td>
+          <td>{{ event.description }}</td>
+          <td>{{ event.timestamp| date:'short' }}</td>
+          <td>
+            <button class="btn-view">View</button>
+            <button class="btn-edit">Edit</button>
+            <button class="btn-delete">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  

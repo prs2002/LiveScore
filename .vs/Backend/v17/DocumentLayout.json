@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\service\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\service\\imatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\repository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|c:\\users\\prane\\source\\repos\\matchmanagementlogicalq2\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF8DA8C-CEB1-4646-8CC7-82E4D5F76EEC}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMatchService.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\IMatchService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\IMatchService.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\IMatchService.cs",
+              "RelativeToolTip": "Backend\\Service\\IMatchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:39:30.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\UserService.cs",
+              "RelativeToolTip": "Backend\\Service\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:33:16.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwF4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:36:35.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\MatchesController.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Controllers\\MatchesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\MatchesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:35:02.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:29:35.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Repository\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Backend\\Repository\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Repository\\UserRepo.cs",
+              "RelativeToolTip": "Backend\\Repository\\UserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:33:54.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Repository\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "Backend\\Repository\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Repository\\IUserRepo.cs",
+              "RelativeToolTip": "Backend\\Repository\\IUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:33:46.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Service\\IUserService.cs",
+              "RelativeToolTip": "Backend\\Service\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:32:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\prane\\source\\repos\\MatchManagementLogicalQ2\\Backend\\Backend\\Models\\User.cs",
+              "RelativeToolTip": "Backend\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:53:45.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

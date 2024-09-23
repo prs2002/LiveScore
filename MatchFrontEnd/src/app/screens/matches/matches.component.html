@@ -1,0 +1,63 @@
+<div>
+    <h2>Matches</h2>
+  
+    <button (click)="toggleForm()">
+      {{ isFormVisible ? 'Cancel' : 'Add a Match' }}
+    </button>
+  
+    <!-- Show the form only if isFormVisible is true -->
+    <div *ngIf="isFormVisible">
+      <h3>Add a New Match</h3>
+      <form (ngSubmit)="addMatch()">
+        <label>Team 1:</label>
+        <input type="text" [(ngModel)]="newMatch.team1" name="team1" required />
+  
+        <label>Team 2:</label>
+        <input type="text" [(ngModel)]="newMatch.team2" name="team2" required />
+  
+        <label>Sport:</label>
+        <input type="text" [(ngModel)]="newMatch.sport" name="sport" required />
+  
+        <label>Start Time:</label>
+        <input type="datetime-local" [(ngModel)]="newMatch.startTime" name="startTime" required />
+  
+        <label>Status:</label>
+        <select [(ngModel)]="newMatch.status" name="status" required>
+          <option value="Scheduled">Scheduled</option>
+          <option value="Ongoing">Ongoing</option>
+          <option value="Over">Over</option>
+        </select>
+  
+        <button class="btn-view" type="submit">Add Match</button>
+      </form>
+    </div>
+  
+    <h3>All Matches</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Match Id</th>
+          <th>Team 1</th>
+          <th>Team 2</th>
+          <th>Sport</th>
+          <th>Start Time</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let match of matches">
+          <td>{{ match.matchID }}</td>
+          <td>{{ match.team1 }}</td>
+          <td>{{ match.team2 }}</td>
+          <td>{{ match.sport }}</td>
+          <td>{{ match.startTime | date:'short' }}</td>
+          <td>{{ match.status }}</td>
+          <td>
+            <button class="btn-view">View</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

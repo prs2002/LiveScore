@@ -1,0 +1,52 @@
+<div>
+    <h2>Scores</h2>
+  
+    <button (click)="toggleForm()">
+      {{ isFormVisible ? 'Cancel' : 'Add a Score' }}
+    </button>
+  
+    <div *ngIf="isFormVisible">
+      <h3>Add a New Score</h3>
+      <form (ngSubmit)="addScore()">
+        <label>Match ID:</label>
+        <input type="text" [(ngModel)]="newScore.matchID" name="matchID" required />
+  
+        <label>Team 1 Score:</label>
+        <input type="number" [(ngModel)]="newScore.team1Score" name="team1Score" required />
+  
+        <label>Team 2 Score:</label>
+        <input type="number" [(ngModel)]="newScore.team2Score" name="team2Score" required />
+  
+        <button type="submit">Add Score</button>
+      </form>
+    </div>
+  
+    <h3>All Scores</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Score ID</th>
+          <th>Match ID</th>
+          <th>Team 1 Score</th>
+          <th>Team 2 Score</th>
+          <th>Last Updated</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let score of scores">
+          <td>{{ score.scoreID }}</td>
+          <td>{{ score.matchID }}</td>
+          <td>{{ score.team1Score }}</td>
+          <td>{{ score.team2Score }}</td>
+          <td>{{ score.lastUpdated | date:'short' }}</td>
+          <td>
+            <button class="btn-view">View</button>
+            <button class="btn-edit">Edit</button>
+            <button class="btn-delete">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

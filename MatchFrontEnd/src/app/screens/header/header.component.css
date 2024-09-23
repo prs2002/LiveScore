@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+}
+
+.auth-section span {
+  margin-right: 15px;
+  color: white;
+}
+
+.btn-auth {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-auth:hover {
+  background-color: #218838;
+}

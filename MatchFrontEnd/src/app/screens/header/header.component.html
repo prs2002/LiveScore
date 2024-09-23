@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <ul>
+    <li (click)="navigateTo('dashboard')">Dashboard</li>
+    <li (click)="navigateTo('matches')">Matches</li>
+    <li (click)="navigateTo('scores')">Scores</li>
+    <li (click)="navigateTo('events')">Events</li>
+  </ul>
+  <div class="auth-section">
+    <span *ngIf="isLoggedIn">Hi, {{ userName }}!</span>
+    <button *ngIf="isLoggedIn" (click)="logout()" class="btn-auth">Logout</button>
+    <button *ngIf="!isLoggedIn" (click)="navigateTo('signin')" class="btn-auth">Login/Signup</button>
+  </div>
+</nav>

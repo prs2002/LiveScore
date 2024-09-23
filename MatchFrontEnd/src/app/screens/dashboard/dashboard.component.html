@@ -1,0 +1,73 @@
+<div>
+    <h2>Ongoing Matches</h2>
+  
+    <div *ngFor="let match of ongoingMatches" class="match-group">
+      <h3>{{ match.team1 }} vs {{ match.team2 }} ({{ match.sport }})</h3>
+  
+      <table>
+        <thead>
+          <tr>
+            <th>Team 1 Score</th>
+            <th>Team 2 Score</th>
+            <th>Last Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let score of getScoresByMatch(match.matchID)">
+            <td>{{ score.team1Score }}</td>
+            <td>{{ score.team2Score }}</td>
+            <td>{{ score.lastUpdated | date:'short' }}</td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <h4>Events</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Event Type</th>
+            <th>Description</th>
+            <th>Timestamp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let event of getEventsByMatch(match.matchID)">
+            <td>{{ event.eventType }}</td>
+            <td>{{ event.description }}</td>
+            <td>{{ event.timestamp | date:'short' }}</td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <button (click)="toggleScoreForm()">Add Score</button>
+      <button (click)="toggleEventForm()">Add Event</button>
+  
+      <!-- Add Score Form -->
+      <div *ngIf="isScoreFormVisible && newScore.matchID === match.matchID">
+        <h4>Add Score for {{ match.team1 }} vs {{ match.team2 }}</h4>
+        <form (ngSubmit)="addScore()">
+          <label>Team 1 Score:</label>
+          <input type="number" [(ngModel)]="newScore.team1Score" name="team1Score" required />
+  
+          <label>Team 2 Score:</label>
+          <input type="number" [(ngModel)]="newScore.team2Score" name="team2Score" required />
+  
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+  
+      <!-- Add Event Form -->
+      <div *ngIf="isEventFormVisible && newEvent.matchID === match.matchID">
+        <h4>Add Event for {{ match.team1 }} vs {{ match.team2 }}</h4>
+        <form (ngSubmit)="addEvent()">
+          <label>Event Type:</label>
+          <input type="text" [(ngModel)]="newEvent.eventType" name="eventType" required />
+  
+          <label>Description:</label>
+          <input type="text" [(ngModel)]="newEvent.description" name="description" required />
+  
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>  
